@@ -4,7 +4,7 @@ int main(){
     printf("You entered : ");
     
     scanf("%f",&value);
-    printf(".2 %f",value);
+    printf(".2%f",value);
     
     return 0;
 }
