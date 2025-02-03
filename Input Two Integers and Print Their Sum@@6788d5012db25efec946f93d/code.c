@@ -2,9 +2,6 @@
 int main() {
     int a, b;
     scanf("%d",&a);
-    printf("%d",a);
     scanf("%d",&b);
-    printf("%d",b);
-    printf("Sum:",a+b);
-    return 0;
+    printf("Sum:",a+b);    return 0;
 }
