@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int value;
+    float value;
     printf("You entered : ");
     
-    scanf("%d",&value);
-    printf("%d",value);
+    scanf("%f",&value);
+    printf("%f",value);
     
     return 0;
 }
