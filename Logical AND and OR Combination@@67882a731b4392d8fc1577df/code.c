@@ -6,6 +6,6 @@ int main() {
     if(a>0 && b<0 || a==b==0)
         printf("True");
     else
-        porintf("False");
+        printf("False");
     return 0;
 }
