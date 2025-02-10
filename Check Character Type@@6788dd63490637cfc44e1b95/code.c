@@ -2,7 +2,7 @@
 int main() {
     char a;
     scanf("%d",&a);
-    if(a=='a','e','i','o','u'){
+    if(a='a','e','i','o','u'){
         printf("Vowel");
     }
     else if (a>=0 && a<=100){
