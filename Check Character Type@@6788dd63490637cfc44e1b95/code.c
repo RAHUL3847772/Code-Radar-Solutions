@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&a);
    
     
-    else if (a>=0 && a<=100){
+    if (a>=0 && a<=100){
         printf("Digit");
     }
     else if (a>'a'&& a<='z' && a!='e','i','0','u'){
