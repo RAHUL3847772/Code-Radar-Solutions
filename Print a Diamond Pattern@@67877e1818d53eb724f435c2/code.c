@@ -2,6 +2,10 @@
 int main(){
     int n;
     scanf("%d",&n);
+      if (n % 2 == 0) {
+        printf("Please enter an odd number.\n");
+        return 1;
+    }
     int spaces=n/2;
     int stars=1;
     int ml=n/2+1;
